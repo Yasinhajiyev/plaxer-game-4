@@ -1,0 +1,1003 @@
+* {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+.colorzilla {
+  background-color: black;
+  position: fixed !important;
+}
+
+.right {
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.right .data:hover {
+  color: blue;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.right-small {
+  display: none;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.right-small .data:hover {
+  color: blue;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header {
+  padding: 15px 0px 10px 0px;
+  color: white;
+  width: 100%;
+  position: fixed !important;
+}
+
+.header .search-icon {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.header .search-icon:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: blue;
+}
+
+.header .cart-icon {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.header .cart-icon:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: blue;
+}
+
+.header .gridded2-menu {
+  display: none;
+}
+
+.header img {
+  position: absolute;
+  left: 35px;
+}
+
+.header ul li {
+  list-style: none;
+  cursor: pointer;
+  padding: 8px 0px 0px 0px;
+}
+
+.header i {
+  padding-top: 8px;
+}
+
+.header .gallery-menu .galleried-menu {
+  display: none;
+  background-color: #1a1a1a;
+  position: absolute;
+  left: 205px;
+  padding: 2px 10px 19px 10px;
+}
+
+.header .gallery-menu .galleried-menu .grid2-line {
+  display: none;
+  -webkit-animation: developers-line 2s  1  forwards;
+          animation: developers-line 2s  1  forwards;
+}
+
+.header .gallery-menu .galleried-menu .packery-line {
+  display: none;
+  -webkit-animation: developers-line 2s  1  forwards;
+          animation: developers-line 2s  1  forwards;
+}
+
+.header .Blog-menu .Blogged-menu {
+  display: none;
+  background-color: #1a1a1a;
+  position: absolute;
+  left: 125px;
+  padding: 2px 10px 19px 10px;
+}
+
+.header .Blog-menu .Blogged-menu .grid-line {
+  display: none;
+  -webkit-animation: developers-line 2s  1  forwards;
+          animation: developers-line 2s  1  forwards;
+}
+
+.header .Blog-menu .Blogged-menu .sidebar-line {
+  display: none;
+  -webkit-animation: developers-line 2s  1  forwards;
+          animation: developers-line 2s  1  forwards;
+}
+
+.header .Blog-menu .Blogged-menu .masonry-line {
+  display: none;
+  -webkit-animation: developers-line 2s  1  forwards;
+          animation: developers-line 2s  1  forwards;
+}
+
+.header .Drop-menu .Dropped-menu {
+  display: none;
+  background-color: #1a1a1a;
+  position: absolute;
+  left: 45px;
+  padding: 2px 10px 19px 10px;
+}
+
+.header .Drop-menu .Dropped-menu .stream-line {
+  display: none;
+  -webkit-animation: stream-line 2s  1  forwards;
+          animation: stream-line 2s  1  forwards;
+}
+
+.header .Drop-menu .Dropped-menu .esport-line {
+  display: none;
+  -webkit-animation: esport-line 2s  1  forwards;
+          animation: esport-line 2s  1  forwards;
+}
+
+.header .Drop-menu .Dropped-menu .portfolio-line {
+  display: none;
+  -webkit-animation: portfolio-line 2s  1  forwards;
+          animation: portfolio-line 2s  1  forwards;
+}
+
+.header .Drop-menu .Dropped-menu .categories-line {
+  display: none;
+  -webkit-animation: categories-line 2s  1  forwards;
+          animation: categories-line 2s  1  forwards;
+}
+
+.header .Drop-menu .Dropped-menu .developers-line {
+  display: none;
+  -webkit-animation: developers-line 2s  1  forwards;
+          animation: developers-line 2s  1  forwards;
+}
+
+.header .Drop-menu .Dropped-menu .merch-line {
+  display: none;
+  -webkit-animation: developers-line 2s  1  forwards;
+          animation: developers-line 2s  1  forwards;
+}
+
+.back-slider button {
+  display: none !important;
+}
+
+.back-slider .slider1 .slider1-text {
+  -webkit-transition: .10s;
+  transition: .10s;
+  position: absolute;
+  top: 180px;
+  -webkit-transform: translateX(65px);
+          transform: translateX(65px);
+}
+
+.back-slider .slider1 .slider1-text .social-icon {
+  position: absolute;
+  top: 220px;
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+
+.back-slider .slider2 .slider2-text {
+  -webkit-transition: .10s;
+  transition: .10s;
+  position: absolute;
+  top: 180px;
+  -webkit-transform: translateX(65px);
+          transform: translateX(65px);
+}
+
+.back-slider .slider2 .slider2-text .social-icon {
+  position: absolute;
+  top: 220px;
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+
+.back-slider .slider3 .slider3-text {
+  -webkit-transition: .10s;
+  transition: .10s;
+  position: absolute;
+  top: 180px;
+  -webkit-transform: translateX(65px);
+          transform: translateX(65px);
+}
+
+.back-slider .slider3 .slider3-text .social-icon {
+  position: absolute;
+  top: 220px;
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+
+.news {
+  background-color: #000033;
+  width: 100%;
+}
+
+.news .twitch {
+  margin-bottom: 20px !important;
+  background-color: #000;
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.news .twitch i {
+  font-size: 90px;
+}
+
+.news .twitch:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#7733DD), to(#3399FF));
+  background: linear-gradient(#7733DD, #3399FF);
+}
+
+.news .esport {
+  margin-bottom: 20px !important;
+  background-color: #000;
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.news .esport i {
+  font-size: 90px;
+}
+
+.news .esport:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#7733DD), to(#3399FF));
+  background: linear-gradient(#7733DD, #3399FF);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.element-menu {
+  position: absolute;
+  right: 130px;
+}
+
+.element-menu .elements {
+  cursor: pointer;
+}
+
+.element-menu .elemented-menu {
+  display: none;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.element-menu .elemented-menu li {
+  color: white;
+  list-style: none;
+  cursor: pointer;
+  padding-top: 7px;
+}
+
+.element-menu .elemented-menu li:hover {
+  color: blue;
+}
+
+.element-menu .elemented-menu h5 {
+  color: white;
+  cursor: pointer;
+}
+
+.element-menu .elemented-menu .classic-part {
+  width: 100%;
+}
+
+.element-menu .elemented-menu .classic-part:hover h5 {
+  color: blue;
+}
+
+.element-menu .elemented-menu .presentation-part {
+  width: 100%;
+}
+
+.element-menu .elemented-menu .presentation-part:hover h5 {
+  color: blue;
+}
+
+.element-menu .elemented-menu .infographic-part {
+  width: 100%;
+}
+
+.element-menu .elemented-menu .infographic-part:hover h5 {
+  color: blue;
+}
+
+.element-menu .elemented-menu .typography-part {
+  width: 100%;
+}
+
+.element-menu .elemented-menu .typography-part:hover h5 {
+  color: blue;
+}
+
+.matchesclass-small {
+  display: none !important;
+}
+
+.matchesclass-small .matches {
+  margin-top: 30px;
+}
+
+.matchesclass-small .matches:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#3e246b), to(#0750d0));
+  background: linear-gradient(90deg, #3e246b 0%, #0750d0 100%);
+}
+
+.matchesclass-small .matches .twitch span {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.matchesclass-small .matches .twitch span:hover {
+  color: #9900CC !important;
+}
+
+.latest-small {
+  display: none;
+}
+
+@-webkit-keyframes stream-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes stream-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes esport-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes esport-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes portfolio-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes portfolio-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes categories-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes categories-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes developers-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes developers-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes merch-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes merch-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes grid-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes grid-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes sidebar-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes sidebar-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes masonry-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes masonry-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes grid2-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes grid2-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes packery-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@keyframes packery-line {
+  from {
+    height: 3px;
+    width: 0px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+  to {
+    height: 3px;
+    width: 45px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+            clip-path: polygon(0 0, 92% 0, 100% 100%, 8% 100%);
+  }
+}
+
+@-webkit-keyframes read-ani {
+  from {
+    height: 5px;
+    width: 160px;
+    background-color: blue;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    -webkit-transform: translateX(-35px);
+            transform: translateX(-35px);
+  }
+  to {
+    height: 26px;
+    width: 160px;
+    background-color: blue;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    -webkit-transform: translateX(-35px);
+            transform: translateX(-35px);
+  }
+}
+
+@keyframes read-ani {
+  from {
+    height: 5px;
+    width: 160px;
+    background-color: blue;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    -webkit-transform: translateX(-35px);
+            transform: translateX(-35px);
+  }
+  to {
+    height: 26px;
+    width: 160px;
+    background-color: blue;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    -webkit-transform: translateX(-35px);
+            transform: translateX(-35px);
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding-bottom: 70px !important;
+    width: 100% !important;
+  }
+  .header .menu-line {
+    right: 25px !important;
+  }
+  .header .cart-icon {
+    left: 405px !important;
+  }
+  .header .search-icon {
+    left: 370px !important;
+  }
+  .header .menues {
+    display: none !important;
+  }
+  .header .colorzilla {
+    width: 100%;
+    background-color: black !important;
+    background-size: cover !important;
+  }
+  .back-slider {
+    width: 100% !important;
+  }
+  .back-slider .slider1-text {
+    top: 10px !important;
+  }
+  .back-slider .slider1-text .count {
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+  }
+  .back-slider .slider1-text h3 {
+    font-size: 20px !important;
+    margin-top: 90px !important;
+  }
+  .back-slider .slider1-text .watch {
+    width: 130px !important;
+    text-align: center !important;
+    padding: 5px 10px !important;
+  }
+  .back-slider .slider1-text .social-icon {
+    top: 180px !important;
+  }
+  .back-slider .slider1-text .social-icon i {
+    font-size: 10px !important;
+  }
+  .back-slider .slider2-text {
+    top: 10px !important;
+  }
+  .back-slider .slider2-text .count {
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+  }
+  .back-slider .slider2-text h3 {
+    font-size: 20px !important;
+    margin-top: 90px !important;
+  }
+  .back-slider .slider2-text .watch {
+    width: 130px !important;
+    text-align: center !important;
+    padding: 5px 10px !important;
+  }
+  .back-slider .slider2-text .social-icon {
+    top: 180px !important;
+  }
+  .back-slider .slider2-text .social-icon i {
+    font-size: 10px !important;
+  }
+  .back-slider .slider3-text {
+    top: 10px !important;
+  }
+  .back-slider .slider3-text .count {
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+  }
+  .back-slider .slider3-text h3 {
+    font-size: 20px !important;
+    margin-top: 90px !important;
+  }
+  .back-slider .slider3-text .watch {
+    width: 130px !important;
+    text-align: center !important;
+    padding: 5px 10px !important;
+  }
+  .back-slider .slider3-text .social-icon {
+    top: 180px !important;
+  }
+  .back-slider .slider3-text .social-icon i {
+    font-size: 10px !important;
+  }
+  .right-small {
+    display: block !important;
+  }
+  .right-small p {
+    cursor: pointer;
+  }
+  .right-small .open-menu1 {
+    cursor: pointer;
+  }
+  .right-small .opened-menu1 {
+    display: none;
+  }
+  .right-small .open-menu2 {
+    cursor: pointer;
+  }
+  .right-small .opened-menu2 {
+    display: none;
+  }
+  .right-small .open-menu3 {
+    cursor: pointer;
+  }
+  .right-small .opened-menu3 {
+    display: none;
+  }
+  .right-small .open-menu4 {
+    cursor: pointer;
+  }
+  .right-small .opened-menu4 {
+    display: none;
+  }
+  .right-small .open-menu5 {
+    cursor: pointer;
+  }
+  .right-small .opened-menu5 {
+    display: none;
+  }
+  .right-small li {
+    font-size: 11px;
+    list-style: none;
+  }
+  .wcgleague-small {
+    display: block !important;
+    width: 100% !important;
+  }
+  .wcgleague-small button {
+    display: none !important;
+  }
+  .wcgleague {
+    display: none !important;
+  }
+  .wcgleague button {
+    display: none !important;
+  }
+  .matchesclass {
+    display: none !important;
+    width: 100% !important;
+  }
+  .matchesclass .matches {
+    width: 100% !important;
+  }
+  .matchesclass-small {
+    display: block !important;
+    width: 100%;
+  }
+  .matchesclass-small .matches {
+    width: 100% !important;
+  }
+  .latest {
+    display: none;
+  }
+}
+
+.theme .read-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 160px !important;
+}
+
+.theme .read-button .readbutton-line {
+  display: none;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  -webkit-animation: read-ani 2s  1  forwards;
+          animation: read-ani 2s  1  forwards;
+}
+
+.wcgleague button {
+  display: none !important;
+}
+
+.all-active {
+  background-color: #8C400E;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+          clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.wcgleague-small {
+  display: none;
+}
+
+.wcgleague-small button {
+  display: none !important;
+}
+
+.matchesclass .matches {
+  margin-top: 30px;
+}
+
+.matchesclass .matches:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#3e246b), to(#0750d0));
+  background: linear-gradient(90deg, #3e246b 0%, #0750d0 100%);
+}
+
+.matchesclass .matches .twitch span {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.matchesclass .matches .twitch span:hover {
+  color: #9900CC !important;
+}
+
+.matchesclass .read-button {
+  margin-top: 30px;
+  margin-left: 45%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 160px !important;
+}
+
+.matchesclass .read-button .readbutton-line {
+  display: none;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  -webkit-animation: read-ani 2s  1  forwards;
+          animation: read-ani 2s  1  forwards;
+}
+/*# sourceMappingURL=style.css.map */
